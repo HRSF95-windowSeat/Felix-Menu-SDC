@@ -29,6 +29,7 @@ class Menu extends React.Component {
   getMenuObj() {
     axios.get(`/menus/restaurant/${this.props.match.params.restaurantId}/menu`)
       .then(response => {
+        console.log('this is the data i got from cassandra! -------->', response)
         this.findSubMenusList(response.data[0]);
         this.setState({
           menu: response.data[0],

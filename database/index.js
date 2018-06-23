@@ -1,51 +1,16 @@
-const mongoose = require('mongoose');
+const cassandra = require('cassandra-driver');
 
-const mongoURL = process.env.mongoURL || 'mongodb://localhost/cavatable_menus';
+const client = new cassandra.Client({ contactPoints: ['localhost:9042'], keyspace: 'menu_service'});
 
-mongoose.connect(mongoURL);
-
-const menuSchema = new mongoose.Schema({
-  rest_id: Number,
-  rest_name: String,
-  breakfast: [{
-    menu_section: String,
-    entries: [{
-      name: String,
-      desc: String,
-      price: String,
-      photoUrl: String,
-      filter_categories: {},
-    }],
-  }],
-  lunch: [{
-    menu_section: String,
-    entries: [{
-      name: String,
-      desc: String,
-      price: String,
-      photoUrl: String,
-      filter_categories: {},
-    }],
-  }],
-  dinner: [{
-    menu_section: String,
-    entries: [{
-      name: String,
-      desc: String,
-      price: String,
-      photoUrl: String,
-      filter_categories: {},
-    }],
-  }],
-});
-
-const MenuModel = mongoose.model('menus', menuSchema);
-
-const retrieve = (restaurantId, handleResponse) => {
-  MenuModel.find({ rest_id: parseInt(restaurantId) })
-    .then(results => handleResponse(null, results))
-    .catch(err => handleResponse(err, null));
+const retrieve = (restaurantId, handleResponses) => {
+  const query = "SELECT * FROM menu_service.menu where a_rest_id = ?";
+  client.execute(query, [ `${restaurantId}` ], { prepare: true }, (err, result) => {
+    if (err) {
+      handleResponses(err, null)
+    } else {
+      handleResponses(null, result.rows[0])
+    }
+  })
 };
 
 module.exports.retrieve = retrieve;
-

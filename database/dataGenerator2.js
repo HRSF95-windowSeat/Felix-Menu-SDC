@@ -30,11 +30,11 @@ var randomNum = function(max) {
 }
 
 var rest_name = function() {
-  return wordBank[randomNum(1555)] + ' ' + wordBank[randomNum(1555)]
+  return wordBank[randomNum(1555)] + ' ' + wordBank[randomNum(1555)];
 }
 
 var entry_name = function() {
-  return wordBank2[randomNum(2643)] + ' ' + wordBank2[randomNum(2643)]
+  return wordBank2[randomNum(2643)] + ' ' + wordBank2[randomNum(2643)];
 }
 
 
@@ -59,66 +59,66 @@ var photoUrl = function(num) {
 }
 
 var vegetarian = function() {
-  var choice = [0, 0, 1]
+  var choice = [0, 0, 1];
   var randomChoice = randomNum(3);
-  return choice[randomChoice]
+  return choice[randomChoice];
 }
 
 var vegan = function() {
-  var choice = [0, 0, 1]
+  var choice = [0, 0, 1];
   var randomChoice = randomNum(3);
-  return choice[randomChoice]
+  return choice[randomChoice];
 }
 
 var gluten = function() {
-  var choice = [0, 0, 1]
+  var choice = [0, 0, 1];
   var randomChoice = randomNum(3);
-  return choice[randomChoice]
+  return choice[randomChoice];
 }
 
 //will make 170,000,000 data
 //"disk space is cheap" approach
 var counter = 0;
-var imageCounter = 1
+var imageCounter = 1;
 var imageCounterReset = function() {
   if (imageCounter < 1000) {
-    imageCounter ++
+    imageCounter ++;
   } else {
-    imageCounter = 1
+    imageCounter = 1;
   }
 }
 
 var aFS = function(entry) {
-  fs.appendFileSync('./data.txt', entry)
+  fs.appendFileSync('./data.txt', entry);
 }
 var generator = function (dataAmount){
 
   //aFS('rest_id,rest_name,meal_time,meal_type,food_name,food_description,price,photo_url,vegetarian,vegan,gluten\n') <-- may not be needed for Cassandra
   for (let i = 0; i < dataAmount; i++) { //will input 10M
-    var restaurantName = rest_name()
-    var generatedData = ''
+    var restaurantName = rest_name();
+    var generatedData = '';
     for (let i = 0; i < 100000; i++){ //creates 1MM
       for (let i = 0; i < 3; i++) { //3 Entree
-        counter += 1
+        counter += 1;
         generatedData = generatedData.concat(`${counter},` + restaurantName + "," + meal_time() + "," + "Entrees," + entry_name() + "," + description() + "," + price() + ".99" + "," + photoUrl(imageCounter) + "," + vegetarian() + "," + vegan() + "," + gluten() + "\n");
         imageCounterReset();
         if (counter % 10000 === 0) {
-          console.log(counter)
+          console.log(counter);
         }
       }
       for (let i = 0; i < 4; i++) { //4 Starter
-        counter += 1
+        counter += 1;
         generatedData = generatedData.concat(`${counter},` + restaurantName + "," + meal_time() + "," + "Starters," + entry_name() + "," + description() + "," + price() + ".99" + "," + photoUrl(imageCounter) + "," + vegetarian() + "," + vegan() + "," + gluten() + "\n");
         if (counter % 10000 === 0) {
-          console.log(counter)
+          console.log(counter);
         }
         imageCounterReset();
       }
       for (let i = 0; i < 3; i++) { //3 Starter
-        counter += 1
+        counter += 1;
         generatedData = generatedData.concat(`${counter},` + restaurantName + "," + meal_time() + "," + "Desserts," + entry_name() + "," + description() + "," + price() + ".99" + "," + photoUrl(imageCounter) + "," + vegetarian() + "," + vegan() + "," + gluten() + "\n");
         if (counter %10000 === 0){
-          console.log(counter)
+          console.log(counter);
         }
         imageCounterReset();
       }
@@ -136,4 +136,4 @@ var generator = function (dataAmount){
 //   }
 // }
 // recursion()
-generator(100)
+generator(100);

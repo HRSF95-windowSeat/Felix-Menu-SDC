@@ -20,11 +20,11 @@ app.get('/menus/restaurant/:restaurantId/menu', (req, res) => {
 });
 
 app.post('/restaurant/:restaurantId/menu', (req, res) => {
-  res.send('POST REQUEST')
+  res.send('POST REQUEST');
 });
 
 app.put('/restaurant/:restaurantId/menu', (req, res) => {
-  res.send('PUT REQUEST')
+  res.send('PUT REQUEST');
 });
 
 app.delete("/restaurant/:restaurantId/menu", (req, res) => {

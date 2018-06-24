@@ -1,0 +1,263 @@
+14121,9900,Half Life spiders
+14122,9900,Half Life spiders
+14123,9900,Half Life spiders
+14124,9900,Half Life spiders
+14125,9900,Half Life spiders
+14126,9900,Half Life spiders
+14127,9900,Half Life spiders
+14128,9900,Half Life spiders
+14129,9900,Half Life spiders
+14130,9900,Half Life spiders
+14131,9903,Crush Station squeeze
+14132,9903,Crush Station squeeze
+14133,9903,Crush Station squeeze
+14134,9903,Crush Station squeeze
+14135,9903,Crush Station squeeze
+14136,9903,Crush Station squeeze
+14137,9903,Crush Station squeeze
+14138,9903,Crush Station squeeze
+14139,9903,Crush Station squeeze
+14140,9903,Crush Station squeeze
+14141,9913,Tomatofish driving
+14142,9913,Tomatofish driving
+14143,9913,Tomatofish driving
+14144,9913,Tomatofish driving
+14145,9913,Tomatofish driving
+14146,9913,Tomatofish driving
+14147,9913,Tomatofish driving
+14148,9913,Tomatofish driving
+14149,9913,Tomatofish driving
+14150,9913,Tomatofish driving
+14151,9918,Porque position
+14152,9918,Porque position
+14153,9918,Porque position
+14154,9918,Porque position
+14155,9918,Porque position
+14156,9918,Porque position
+14157,9918,Porque position
+14158,9918,Porque position
+14159,9918,Porque position
+14160,9918,Porque position
+14161,9924,Sindrome honorable
+14162,9924,Sindrome honorable
+14163,9924,Sindrome honorable
+14164,9924,Sindrome honorable
+14165,9924,Sindrome honorable
+14166,9924,Sindrome honorable
+14167,9924,Sindrome honorable
+14168,9924,Sindrome honorable
+14169,9924,Sindrome honorable
+14170,9924,Sindrome honorable
+14171,9925,Mammy’s Yammys childlike
+14172,9925,Mammy’s Yammys childlike
+14173,9925,Mammy’s Yammys childlike
+14174,9925,Mammy’s Yammys childlike
+14175,9925,Mammy’s Yammys childlike
+14176,9925,Mammy’s Yammys childlike
+14177,9925,Mammy’s Yammys childlike
+14178,9925,Mammy’s Yammys childlike
+14179,9925,Mammy’s Yammys childlike
+14180,9925,Mammy’s Yammys childlike
+14181,9927,Shakedown nippy
+14182,9927,Shakedown nippy
+14183,9927,Shakedown nippy
+14184,9927,Shakedown nippy
+14185,9927,Shakedown nippy
+14186,9927,Shakedown nippy
+14187,9927,Shakedown nippy
+14188,9927,Shakedown nippy
+14189,9927,Shakedown nippy
+14190,9927,Shakedown nippy
+14191,9931,Mother Cabrini house
+14192,9931,Mother Cabrini house
+14193,9931,Mother Cabrini house
+14194,9931,Mother Cabrini house
+14195,9931,Mother Cabrini house
+14196,9931,Mother Cabrini house
+14197,9931,Mother Cabrini house
+14198,9931,Mother Cabrini house
+14199,9931,Mother Cabrini house
+14200,9931,Mother Cabrini house
+14201,9939,The Southern Spread hover
+14202,9939,The Southern Spread hover
+14203,9939,The Southern Spread hover
+14204,9939,The Southern Spread hover
+14205,9939,The Southern Spread hover
+14206,9939,The Southern Spread hover
+14207,9939,The Southern Spread hover
+14208,9939,The Southern Spread hover
+14209,9939,The Southern Spread hover
+14210,9939,The Southern Spread hover
+14211,9943,Shangrilatte uninterested
+14212,9943,Shangrilatte uninterested
+14213,9943,Shangrilatte uninterested
+14214,9943,Shangrilatte uninterested
+14215,9943,Shangrilatte uninterested
+14216,9943,Shangrilatte uninterested
+14217,9943,Shangrilatte uninterested
+14218,9943,Shangrilatte uninterested
+14219,9943,Shangrilatte uninterested
+14220,9943,Shangrilatte uninterested
+14221,9947,Nuance partner
+14222,9947,Nuance partner
+14223,9947,Nuance partner
+14224,9947,Nuance partner
+14225,9947,Nuance partner
+14226,9947,Nuance partner
+14227,9947,Nuance partner
+14228,9947,Nuance partner
+14229,9947,Nuance partner
+14230,9947,Nuance partner
+14231,9957,Sugar and Slice seat
+14232,9957,Sugar and Slice seat
+14233,9957,Sugar and Slice seat
+14234,9957,Sugar and Slice seat
+14235,9957,Sugar and Slice seat
+14236,9957,Sugar and Slice seat
+14237,9957,Sugar and Slice seat
+14238,9957,Sugar and Slice seat
+14239,9957,Sugar and Slice seat
+14240,9957,Sugar and Slice seat
+14241,9958,Tort Resort vigorous
+14242,9958,Tort Resort vigorous
+14243,9958,Tort Resort vigorous
+14244,9958,Tort Resort vigorous
+14245,9958,Tort Resort vigorous
+14246,9958,Tort Resort vigorous
+14247,9958,Tort Resort vigorous
+14248,9958,Tort Resort vigorous
+14249,9958,Tort Resort vigorous
+14250,9958,Tort Resort vigorous
+14251,9962,Prawn Grotto ruin
+14252,9962,Prawn Grotto ruin
+14253,9962,Prawn Grotto ruin
+14254,9962,Prawn Grotto ruin
+14255,9962,Prawn Grotto ruin
+14256,9962,Prawn Grotto ruin
+14257,9962,Prawn Grotto ruin
+14258,9962,Prawn Grotto ruin
+14259,9962,Prawn Grotto ruin
+14260,9962,Prawn Grotto ruin
+14261,9972,Pass the Thyme toothsome
+14262,9972,Pass the Thyme toothsome
+14263,9972,Pass the Thyme toothsome
+14264,9972,Pass the Thyme toothsome
+14265,9972,Pass the Thyme toothsome
+14266,9972,Pass the Thyme toothsome
+14267,9972,Pass the Thyme toothsome
+14268,9972,Pass the Thyme toothsome
+14269,9972,Pass the Thyme toothsome
+14270,9972,Pass the Thyme toothsome
+14271,9977,Coffee Cobbler board
+14272,9977,Coffee Cobbler board
+14273,9977,Coffee Cobbler board
+14274,9977,Coffee Cobbler board
+14275,9977,Coffee Cobbler board
+14276,9977,Coffee Cobbler board
+14277,9977,Coffee Cobbler board
+14278,9977,Coffee Cobbler board
+14279,9977,Coffee Cobbler board
+14280,9977,Coffee Cobbler board
+14281,9983,Antimatter humor
+14282,9983,Antimatter humor
+14283,9983,Antimatter humor
+14284,9983,Antimatter humor
+14285,9983,Antimatter humor
+14286,9983,Antimatter humor
+14287,9983,Antimatter humor
+14288,9983,Antimatter humor
+14289,9983,Antimatter humor
+14290,9983,Antimatter humor
+14291,9989,Martha’s Rump Roast attack
+14292,9989,Martha’s Rump Roast attack
+14293,9989,Martha’s Rump Roast attack
+14294,9989,Martha’s Rump Roast attack
+14295,9989,Martha’s Rump Roast attack
+14296,9989,Martha’s Rump Roast attack
+14297,9989,Martha’s Rump Roast attack
+14298,9989,Martha’s Rump Roast attack
+14299,9989,Martha’s Rump Roast attack
+14300,9989,Martha’s Rump Roast attack
+14301,9990,Martha’s Rump Roast welcome
+14302,9990,Martha’s Rump Roast welcome
+14303,9990,Martha’s Rump Roast welcome
+14304,9990,Martha’s Rump Roast welcome
+14305,9990,Martha’s Rump Roast welcome
+14306,9990,Martha’s Rump Roast welcome
+14307,9990,Martha’s Rump Roast welcome
+14308,9990,Martha’s Rump Roast welcome
+14309,9990,Martha’s Rump Roast welcome
+14310,9990,Martha’s Rump Roast welcome
+14311,9998,Felice rejoice
+14312,9998,Felice rejoice
+14313,9998,Felice rejoice
+14314,9998,Felice rejoice
+14315,9998,Felice rejoice
+14316,9998,Felice rejoice
+14317,9998,Felice rejoice
+14318,9998,Felice rejoice
+14319,9998,Felice rejoice
+14320,9998,Felice rejoice
+14321,9999,Juice Caboose jagged
+14322,9999,Juice Caboose jagged
+14323,9999,Juice Caboose jagged
+14324,9999,Juice Caboose jagged
+14325,9999,Juice Caboose jagged
+14326,9999,Juice Caboose jagged
+14327,9999,Juice Caboose jagged
+14328,9999,Juice Caboose jagged
+14329,9999,Juice Caboose jagged
+14330,9999,Juice Caboose jagged
+ Crotch rapid
+13920,9782,Bulldog and Crotch rapid
+13921,9788,Zuke dead
+13922,9788,Zuke dead
+13923,9788,Zuke dead
+13924,9788,Zuke dead
+13925,9788,Zuke dead
+13926,9788,Zuke dead
+13927,9788,Zuke dead
+13928,9788,Zuke dead
+13929,9788,Zuke dead
+13930,9788,Zuke dead
+13931,9791,Sphere selection
+13932,9791,Sphere selection
+13933,9791,Sphere selection
+13934,9791,Sphere selection
+13935,9791,Sphere selection
+13936,9791,Sphere selection
+13937,9791,Sphere selection
+13938,9791,Sphere selection
+13939,9791,Sphere selection
+13940,9791,Sphere selection
+13941,9797,Fantasy Pot Luck turn
+13942,9797,Fantasy Pot Luck turn
+13943,9797,Fantasy Pot Luck turn
+13944,9797,Fantasy Pot Luck turn
+13945,9797,Fantasy Pot Luck turn
+13946,9797,Fantasy Pot Luck turn
+13947,9797,Fantasy Pot Luck turn
+13948,9797,Fantasy Pot Luck turn
+13949,9797,Fantasy Pot Luck turn
+13950,9797,Fantasy Pot Luck turn
+13951,9798,Prawn Shop uncle
+13952,9798,Prawn Shop uncle
+13953,9798,Prawn Shop uncle
+13954,9798,Prawn Shop uncle
+13955,9798,Prawn Shop uncle
+13956,9798,Prawn Shop uncle
+13957,9798,Prawn Shop uncle
+13958,9798,Prawn Shop uncle
+13959,9798,Prawn Shop uncle
+13960,9798,Prawn Shop uncle
+barrassed
+441,199,Cheeky cart
+442,199,Cheeky cart
+443,199,Cheeky cart
+444,199,Cheeky cart
+445,199,Cheeky cart
+446,199,Cheeky cart
+447,199,Cheeky cart
+448,199,Cheeky cart
+449,199,Cheeky cart
+450,199,Cheeky cart

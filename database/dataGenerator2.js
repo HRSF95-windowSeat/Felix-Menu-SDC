@@ -136,4 +136,4 @@ var generator = function (dataAmount){
 //   }
 // }
 // recursion()
-generator(100);
+generator(1000);

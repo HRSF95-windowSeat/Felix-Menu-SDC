@@ -2,3 +2,4 @@ node_modules/
 public/dist/bundle.js
 database/data.csv
 .DS_Store
+database/PostgreSQL

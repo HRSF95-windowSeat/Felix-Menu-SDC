@@ -16,12 +16,12 @@ const shortPhrases = ["A Brisket a Tasket", "A Day Latte", "Above Bored", "Absal
 const words = ['regret', 'curve', 'level', 'secret', 'classy', 'handsome', 'middle', 'trousers', 'smell', 'six', 'quirky', 'motion', 'miniature', 'stroke', 'moldy', 'manage', 'clear', 'statuesque', 'squeamish', 'rude', 'deadpan', 'frightening', 'gun', 'windy', 'slave', 'bikes', 'macabre', 'living', 'follow', 'typical', 'difficult', 'apathetic', 'badge', 'handy', 'test', 'cheer', 'chalk', 'close', 'cloudy', 'brother', 'scrawny', 'skirt', 'line', 'cars', 'colossal', 'jazzy', 'aggressive', 'part', 'fail', 'freezing', 'superb', 'remain', 'arrest', 'elderly', 'territory', 'perform', 'evasive', 'sponge', 'cut', 'store', 'sense', 'industry', 'relation', 'lackadaisical', 'pipe', 'abrupt', 'camp', 'preserve', 'fluttering', 'gaping', 'arm', 'match', 'society', 'tan', 'tall', 'drop', 'copy', 'groan', 'weather', 'chin', 'cactus', 'phobic', 'untidy', 'highfalutin', 'new', 'glistening', 'comb', 'witty', 'unsightly', 'ceaseless', 'callous', 'crime', 'longing', 'selective', 'vacuous', 'bubble', 'whimsical', 'men', 'relax', 'beginner', 'delirious', 'ubiquitous', 'cellar', 'rinse', 'poke', 'godly', 'ink', 'dance', 'railway', 'kettle', 'bloody', 'advise', 'resonant', 'tomatoes', 'soup', 'rain', 'grandmother', 'like', 'thing', 'card', 'shaky', 'stone', 'finger', 'utopian', 'exuberant', 'clean', 'crown', 'parched', 'adventurous', 'lucky', 'great', 'branch', 'flower', 'absurd', 'fix', 'savory', 'glib', 'gate', 'ticket', 'attack', 'protest', 'ring', 'wide - eyed', 'elfin', 'kiss', 'slim', 'zany', 'hurt', 'rainy', 'cemetery', 'eight', 'dull', 'increase', 'taste', 'thaw', 'flavor', 'blink', 'children', 'brass', 'day', 'outrageous', 'throat', 'embarrassed', 'unused', 'interrupt', 'pin', 'phone', 'education', 'crowded', 'curious', 'reduce', 'plant', 'respect', 'memory', 'jail', 'agreement', 'play', 'paint', 'rob', 'pricey', 'wonder', 'cracker', 'sick', 'eggnog', 'obey', 'canvas', 'hook', 'roof', 'merciful', 'automatic', 'tedious', 'beds', 'airplane', 'exotic', 'habitual', 'open', 'special', 'jobless', 'debonair', 'punishment', 'continue', 'unequal', 'billowy', 'wistful', 'applaud', 'humorous', 'saw', 'train', 'load', 'eager', 'kitty', 'insurance', 'snake', 'picayune', 'discreet', 'bike', 'planes', 'ignorant', 'pancake', 'undress', 'juvenile', 'innate', 'transport', 'kindly', 'scrub', 'spare', 'river', 'risk', 'apparel', 'type', 'laughable', 'endurable', 'book', 'famous', 'soothe', 'linen', 'ladybug', 'abusive', 'arch', 'poison', 'decisive', 'fierce', 'obeisant', 'whip', 'impartial', 'cry', 'equal', 'extra - small', 'side', 'alcoholic', 'married', 'shut', 'listen', 'creepy', 'metal',
   'proud', 'yard', 'pickle', 'sofa', 'smash', 'team', 'brush', 'toothbrush', 'judicious', 'foamy', 'back', 'juice', 'nutty', 'mellow', 'misty', 'sign', 'acrid', 'curved', 'tender', 'nail', 'outgoing', 'repulsive', 'name', 'ask', 'building', 'birds', 'watch', 'bewildered', 'feeble', 'caption', 'free', 'absorbing', 'stale', 'tremendous', 'stiff', 'guide', 'branch', 'energetic', 'hideous', 'try', 'spectacular', 'good', 'needless', 'warm', 'food', 'fish', 'spicy', 'calculate', 'limping', 'beneficial', 'dolls', 'sweater', 'writer', 'defiant', 'superficial', 'suit', 'whip', 'limit', 'giant', 'decorate', 'arrange', 'move', 'produce', 'dinner', 'pat', 'fireman', 'cheerful', 'adaptable', 'debt', 'representative', 'downtown', 'share', 'torpid', 'gifted', 'room', 'seat', 'grieving', 'deafening', 'reason', 'announce', 'van', 'dusty', 'drown', 'taboo', 'rural', 'peel', 'sink', 'ignore', 'marked', 'extra - large', 'rabbit', 'lowly', 'order', 'innocent', 'gullible', 'tap', 'awake', 'shiver', 'rule', 'amuse', 'trail', 'garrulous', 'imagine', 'object', 'bow', 'interfere', 'melted', 'shop', 'impulse', 'horse', 'space', 'cautious', 'fairies', 'flawless', 'imminent', 'telling', 'window', 'condemned', 'lunch', 'cushion', 'partner', 'swing', 'scratch', 'loose', 'synonymous', 'expand', 'languid', 'modern', 'exciting', 'agonizing', 'fabulous', 'admire', 'ajar', 'rescue', 'alive', 'basketball', 'taste', 'winter', 'texture', 'far - flung', 'subdued', 'talk', 'fanatical', 'summer', 'gaudy', 'actually', 'shock', 'fruit', 'crazy', 'drawer', 'dinosaurs', 'camera', 'straw', 'pear', 'owe', 'overwrought', 'trite', 'jail', 'harm', 'scatter', 'curve', 'loaf', 'moor', 'reign', 'ski', 'damp', 'earth', 'pen', 'change', 'clear', 'borrow', 'retire', 'use', 'wish', 'cap', 'noiseless', 'mundane', 'tramp', 'account', 'home', 'frequent', 'tacky', 'real', 'request', 'kittens', 'step', 'pail', 'wealth', 'interest', 'clammy', 'door', 'magic', 'pretend', 'edge', 'unkempt', 'exultant', 'preach', 'toe', 'books', 'bent', 'twist', 'piquant', 'incompetent', 'potato', 'sour', 'ratty', 'wicked', 'enormous', 'trust', 'milk', 'seed', 'sharp', 'eggs', 'burst', 'fat', 'rush', 'raise', 'noxious', 'intend', 'aboard', 'reply', 'skate', 'foot', 'tank', 'waiting', 'sedate', 'charming', 'shake', 'impolite', 'command', 'slimy', 'wood', 'tree', 'breathe', 'ruin', 'park', 'greedy', 'mark', 'disagreeable', 'hammer', 'tight', 'babies', 'drip', 'desk', 'strap', 'price', 'wasteful', 'guiltless', 'momentous', 'month', 'charge', 'rejoice', 'cherry', 'corn', 'cough', 'mint', 'internal', 'broken', 'remember', 'hesitant', 'spark', 'workable',
   'rot', 'medical', 'nifty', 'chivalrous', 'wrist', 'furry', 'enjoy', 'happen', 'hallowed', 'appear', 'cover', 'fearless', 'jeans', 'agree', 'ill - fated', 'uptight', 'cover', 'fallacious', 'shiny', 'uttermost', 'breakable', 'squalid', 'cold', 'unarmed', 'funny', 'half', 'competition', 'disarm', 'berserk', 'pump', 'dispensable', 'zesty', 'frighten', 'condition', 'run', 'instinctive', 'spooky', 'harbor', 'race', 'flock', 'unnatural', 'flow', 'yummy', 'ashamed', 'tiresome', 'seal', 'vivacious', 'aboriginal', 'miss', 'swanky', 'verdant', 'keen', 'throne', 'few', 'market', 'hollow', 'direction', 'best', 'night', 'action', 'gentle', 'rice', 'picture', 'snow', 'house', 'abortive', 'property', 'rabbits', 'bottle', 'obtainable', 'fall', 'finger', 'bashful', 'wriggle', 'develop', 'bomb', 'fair', 'quill', 'psychotic', 'improve', 'spiky', 'prose', 'adamant', 'rate', 'work', 'cuddly', 'approval', 'rustic', 'add', 'cherries', 'lake', 'beef', 'year', 'leg', 'animal', 'reproduce', 'murder', 'unique', 'interest', 'tie', 'well - made', 'double', 'brick', 'ground', 'rabid', 'yielding', 'soft', 'icicle', 'puzzling', 'stew', 'art', 'book', 'knowing', 'spy', 'odd', 'tub', 'erratic', 'kneel', 'watery', 'pine', 'cup', 'thank', 'plant', 'nine', 'hop', 'wiggly', 'crate', 'fill', 'lighten', 'skip', 'cool', 'disgusted', 'comfortable', 'domineering', 'worm', 'true', 'robust', 'complete', 'lock', 'maniacal', 'daughter', 'brawny', 'meaty', 'strong', 'ocean', 'fit', 'wink', 'therapeutic', 'hose', 'trace', 'carve', 'mountainous', 'tail', 'destruction', 'march', 'powerful', 'battle', 'optimal', 'cows', 'delicate', 'control', 'scarf', 'flashy', 'imperfect', 'soak', 'brake', 'trade', 'pink', 'tense', 'mind', 'premium', 'high', 'position', 'salty', 'furniture', 'subtract', 'grate', 'actor', 'peace', 'dad', 'trees', 'jolly', 'magnificent', 'flower', 'cake', 'white', 'silk', 'glamorous', 'bustling', 'general', 'authority', 'drop', 'hate', 'strengthen', 'symptomatic', 'bushes', 'mixed', 'play', 'tasty', 'power', 'liquid', 'awful', 'exchange', 'scientific', 'grin', 'cable', 'accessible', 'ban', 'zealous', 'hungry', 'drab', 'bath', 'ill', 'approve', 'rambunctious', 'minister', 'old', 'anger', 'neat', 'air', 'psychedelic', 'rightful', 'lethal', 'turn', 'five', 'license', 'gabby', 'stuff', 'imaginary', 'illustrious', 'guttural', 'start', 'basin', 'bitter', 'rigid', 'necessary', 'pleasure', 'fertile', 'ten', 'racial', 'surprise', 'radiate', 'look', 'crabby', 'tiny', 'efficacious', 'feeling', 'guess', 'aloof', 'wail', 'protect', 'childlike', 'support', 'calculator', 'suggest', 'gruesome', 'letter', 'sea',
-  'cause', 'right', 'electric', 'riddle', 'top', 'splendid', 'word', 'abrasive', 'early', 'heal', 'playground', 'knit', 'aromatic', 'carry', 'tasteless', 'miscreant', 'ambiguous', 'desire', 'satisfying', 'houses', 'toothpaste', 'flag', 'hand', 'melt', 'violent', 'jewel', 'water', 'hands', 'orange', 'versed', 'trick', 'flimsy', 'question', 'chief', 'tongue', 'exist', 'recess', 'overflow', 'gamy', 'legal', 'secretary', 'pedal', 'class', 'argue', 'fumbling', 'deserted', 'touch', 'seemly', 'bizarre', 'count', 'repair', 'sisters', 'sound', 'pinch', 'nimble', 'healthy', 'earthy', 'theory', 'deceive', 'distribution', 'sleep', 'wander', 'spiders', 'known', 'drunk', 'husky', 'physical', 'film', 'float', 'vein', 'temper', 'smoke', 'smell', 'appreciate', 'serve', 'breezy', 'moon', 'scene', 'whisper', 'excuse', 'quicksand', 'things', 'reaction', 'stream', 'carpenter', 'hair', 'sail', 'expert', 'righteous', 'meal', 'swift', 'grip', 'car', 'telephone', 'boiling', 'stupid', 'file', 'neighborly', 'whistle', 'experience', 'entertain', 'narrow', 'sprout', 'robin', 'vacation', 'open', 'pretty', 'slope', 'well - to -do', 'dysfunctional', 'sudden', 'pray', 'rainstorm', 'pan', 'literate', 'numberless', 'terrific', 'remarkable', 'search', 'enter', 'prepare', 'materialistic', 'omniscient', 'natural', 'land', 'instruct', 'stain', 'fretful', 'governor', 'cheat', 'lavish', 'surround', 'abiding', 'please', 'morning', 'deep', 'machine', 'plan', 'hammer', 'government', 'majestic', 'dry', 'bomb', 'hurried', 'weigh', 'tightfisted', 'gigantic', 'list', 'salt', 'distinct', 'short', 'leather', 'detailed', 'frightened', 'grumpy', 'tense', 'explode', 'bubble', 'wire', 'toad', 'suit', 'unite', 'capricious', 'question', 'abnormal', 'week', 'chemical', 'nut', 'orange', 'impossible', 'talented', 'string', 'encouraging', 'economic', 'sack', 'heat', 'lip', 'uninterested', 'trade', 'magical', 'spotless', 'club', 'unwieldy', 'squeak', 'wry', 'recondite', 'minor', 'strip', 'steady', 'identify', 'flap', 'release', 'bless', 'record', 'talk', 'hum', 'uncle', 'poor', 'wash', 'ear', 'material', 'stocking', 'sordid', 'goofy', 'boundless', 'water', 'complain', 'defective', 'profuse', 'ray', 'divide', 'purpose', 'fascinated', 'hand', 'back', 'thirsty', 'ordinary', 'bury', 'bells', 'girls', 'pour', 'functional', 'balance', 'station', 'aback', 'slow', 'fluffy', 'cabbage', 'zippy', 'diligent', 'blush', 'cent', 'knot', 'transport', 'beam', 'blow', 'pack', 'crook', 'dog', 'tug', 'lumpy', 'afford', 'second - hand', 'military', 'hall', 'astonishing', 'behave', 'rapid', 'honey', 'cats', 'strange', 'admit', 'flagrant',
+  'cause', 'right', 'electric', 'riddle', 'top', 'splendid', 'word', 'abrasive', 'early', 'heal', 'playground', 'knit', 'aromatic', 'carry', 'tasteless', 'miscreant', 'ambiguous', 'desire', 'satisfying', 'houses', 'toothpaste', 'flag', 'hand', 'melt', 'violent', 'jewel', 'water', 'hands', 'orange', 'versed', 'trick', 'flimsy', 'question', 'chief', 'tongue', 'exist', 'recess', 'overflow', 'gamy', 'legal', 'secretary', 'pedal', 'class', 'argue', 'fumbling', 'deserted', 'touch', 'seemly', 'bizarre', 'count', 'repair', 'sisters', 'sound', 'pinch', 'nimble', 'healthy', 'earthy', 'theory', 'deceive', 'distribution', 'sleep', 'wander', 'spiders', 'known', 'drunk', 'husky', 'physical', 'film', 'float', 'vein', 'temper', 'smoke', 'smell', 'appreciate', 'serve', 'breezy', 'moon', 'scene', 'whisper', 'excuse', 'quicksand', 'things', 'reaction', 'stream', 'carpenter', 'hair', 'sail', 'expert', 'righteous', 'meal', 'swift', 'grip', 'car', 'telephone', 'boiling', 'stupid', 'file', 'neighborly', 'whistle', 'experience', 'entertain', 'narrow', 'sprout', 'robin', 'vacation', 'open', 'pretty', 'slope', 'well to do', 'dysfunctional', 'sudden', 'pray', 'rainstorm', 'pan', 'literate', 'numberless', 'terrific', 'remarkable', 'search', 'enter', 'prepare', 'materialistic', 'omniscient', 'natural', 'land', 'instruct', 'stain', 'fretful', 'governor', 'cheat', 'lavish', 'surround', 'abiding', 'please', 'morning', 'deep', 'machine', 'plan', 'hammer', 'government', 'majestic', 'dry', 'bomb', 'hurried', 'weigh', 'tightfisted', 'gigantic', 'list', 'salt', 'distinct', 'short', 'leather', 'detailed', 'frightened', 'grumpy', 'tense', 'explode', 'bubble', 'wire', 'toad', 'suit', 'unite', 'capricious', 'question', 'abnormal', 'week', 'chemical', 'nut', 'orange', 'impossible', 'talented', 'string', 'encouraging', 'economic', 'sack', 'heat', 'lip', 'uninterested', 'trade', 'magical', 'spotless', 'club', 'unwieldy', 'squeak', 'wry', 'recondite', 'minor', 'strip', 'steady', 'identify', 'flap', 'release', 'bless', 'record', 'talk', 'hum', 'uncle', 'poor', 'wash', 'ear', 'material', 'stocking', 'sordid', 'goofy', 'boundless', 'water', 'complain', 'defective', 'profuse', 'ray', 'divide', 'purpose', 'fascinated', 'hand', 'back', 'thirsty', 'ordinary', 'bury', 'bells', 'girls', 'pour', 'functional', 'balance', 'station', 'aback', 'slow', 'fluffy', 'cabbage', 'zippy', 'diligent', 'blush', 'cent', 'knot', 'transport', 'beam', 'blow', 'pack', 'crook', 'dog', 'tug', 'lumpy', 'afford', 'second - hand', 'military', 'hall', 'astonishing', 'behave', 'rapid', 'honey', 'cats', 'strange', 'admit', 'flagrant',
   'halting', 'doubtful', 'screw', 'teeny - tiny', 'detail', 'truck', 'mature', 'sky', 'lamp', 'abaft', 'quilt', 'claim', 'waggish', 'box', 'wrong', 'contain', 'yarn', 'supply', 'clap', 'mass', 'super', 'enchanted', 'hilarious', 'puffy', 'wacky', 'observe', 'fine', 'library', 'crash', 'fast', 'shrill', 'didactic', 'hope', 'abandoned', 'graceful', 'quiet', 'screw', 'assorted', 'faithful', 'dreary', 'important', 'grape', 'knowledgeable', 'attend', 'amused', 'outstanding', 'supreme', 'woman', 'chubby', 'abstracted', 'worthless', 'horses', 'probable', 'apologise', 'doubt', 'fold', 'snatch', 'bright', 'hour', 'sincere', 'whispering', 'late', 'lively', 'substance', 'sound', 'nest', 'help', 'long - term', 'view', 'fresh', 'zonked', 'shade', 'shelf', 'digestion', 'wing', 'loutish', 'dam', 'join', 'axiomatic', 'polish', 'trouble', 'end', 'pig', 'private', 'pets', 'one', 'dime', 'dizzy', 'trot', 'buzz', 'whistle', 'cave', 'wash', 'certain', 'blind', 'quince', 'train', 'present', 'substantial', 'wealthy', 'fence', 'tease', 'vase', 'mask', 'woozy', 'little', 'glossy', 'confuse', 'lock', 'spring', 'shrug', 'language', 'adhesive', 'waste', 'receptive', 'north', 'brave', 'thoughtful', 'obsolete', 'painful', 'work', 'smile', 'escape', 'spiffy', 'serious', 'fear', 'harass', 'ultra', 'earn', 'joyous', 'thread', 'dirt', 'sheep', 'tasteful', 'pop', 'guarded', 'cloth', 'knock', 'spill', 'drag', 'jumbled', 'illegal', 'capable', 'cattle', 'tricky', 'glorious', 'terrible', 'accept', 'need', 'separate', 'brown', 'testy', 'embarrass', 'star', 'blood', 'face', 'frail', 'quiver', 'raspy', 'tangy', 'grotesque', 'disgusting', 'vigorous', 'afraid', 'use', 'weight', 'wave', 'public', 'sigh', 'muddled', 'political', 'elegant', 'voiceless', 'compare', 'oranges', 'waves', 'introduce', 'laugh', 'history', 'waste', 'basket', 'tame', 'plug', 'want', 'reading', 'plough', 'absorbed', 'pull', 'parcel', 'organic', 'destroy', 'abashed', 'bore', 'avoid', 'rotten', 'belief', 'offend', 'faulty', 'sock', 'lonely', 'dust', 'board', 'suggestion', 'male', 'stupendous', 'useful', 'dangerous', 'toy', 'well - off', 'page', 'green', 'jaded', 'drum', 'join', 'obtain', 'stare', 'mend', 'shirt', 'black', 'damaging', 'warlike', 'rely', 'befitting', 'lyrical', 'stop', 'hapless', 'roomy', 'easy', 'holiday', 'muddle', 'penitent', 'redundant', 'frogs', 'breath', 'polite', 'volcano', 'rain', 'panoramic', 'teeth', 'smart', 'mourn', 'uncovered', 'grey', 'man', 'walk', 'pointless', 'jar', 'cute', 'invention', 'passenger', 'cluttered', 'pocket', 'like', 'skin', 'sneaky', 'steer', 'cooing', 'road', 'bump', 'makeshift', 'homely',
   'haunt', 'petite', 'sleepy', 'notebook', 'tickle', 'cagey', 'remind', 'unadvised', 'caring', 'judge', 'dry', 'heartbreaking', 'shape', 'chilly', 'dynamic', 'beg', 'nest', 'creator', 'large', 'tough', 'bouncy', 'umbrella', 'store', 'grubby', 'voracious', 'decorous', 'advertisement', 'delightful', 'hospital', 'field', 'receive', 'minute', 'cross', 'point', 'stamp', 'bare', 'wild', 'believe', 'overrated', 'light', 'hang', 'reflect', 'rail', 'nappy', 'seashore', 'inexpensive', 'concentrate', 'cakes', 'spiritual', 'lace', 'reward', 'oil', 'visitor', 'hook', 'knife', 'detect', 'title', 'tired', 'eye', 'quack', 'guard', 'scandalous', 'spoon', 'warn', 'needle', 'increase', 'willing', 'mighty', 'bed', 'amuck', 'average', 'thunder', 'crib', 'fuzzy', 'alert', 'cause', 'group', 'quaint', 'decay', 'sneeze', 'wind', 'regular', 'town', 'inform', 'sidewalk', 'snails', 'unbiased', 'unbecoming', 'grade', 'save', 'print', 'bored', 'gusty', 'lacking', 'rub', 'rock', 'neck', 'stage', 'bawdy', 'rake', 'panicky', 'prick', 'onerous', 'abject', 'tame', 'balance', 'flowery', 'unruly', 'wise', 'crowd', 'guitar', 'permit', 'broad', 'ugliest', 'trip', 'examine', 'dead', 'division', 'doctor', 'combative', 'sugar', 'boat', 'sack', 'industrious', 'monkey', 'bell', 'harsh', 'hissing', 'push', 'mine', 'tour', 'confess', 'refuse', 'toothsome', 'doll', 'jagged', 'bumpy', 'near', 'rhythm', 'nondescript', 'womanly', 'icy', 'ducks', 'wobble', 'wipe', 'army', 'kaput', 'boast', 'brash', 'happy', 'value', 'ahead', 'powder', 'unwritten', 'land', 'yoke', 'same', 'statement', 'clumsy', 'rings', 'attract', 'lively', 'friendly', 'acceptable', 'ants', 'delay', 'ship', 'dislike', 'knot', 'mean', 'disagree', 'hard', 'cast', 'historical', 'friends', 'upbeat', 'marry', 'look', 'lettuce', 'spray', 'compete', 'meddle', 'lush', 'slow', 'daffy', 'pushy', 'tumble', 'demonic', 'gleaming', 'boil', 'chop', 'naive', 'deer', 'stitch', 'heady', 'bucket', 'measure', 'agreeable', 'paltry', 'worry', 'argument', 'shy', 'hospitable', 'story', 'record', 'first', 'blot', 'aftermath', 'end', 'collect', 'arithmetic', 'switch', 'old - fashioned', 'expensive', 'pie', 'perfect', 'sturdy', 'spoil', 'connection', 'profit', 'flight', 'wandering', 'unhealthy', 'damaged', 'toys', 'suppose', 'scarecrow', 'nervous', 'secretive', 'undesirable', 'overjoyed', 'glow', 'yell', 'soda', 'tidy', 'crush', 'moan', 'jittery', 'addicted', 'various', 'crack', 'future', 'grass', 'plane', 'fold', 'laborer', 'concern', 'rebel', 'vegetable', 'accidental', 'colour', 'kindhearted', 'periodic', 'tenuous', 'dependent', 'employ', 'tearful', 'infamous', 'succeed', 'separate',
   'scale', 'ablaze', 'blue', 'valuable', 'sort', 'island', 'queue', 'vessel', 'scorch', 'wait', 'tin', 'dress', 'nod', 'unusual', 'rock', 'ethereal', 'tray', 'overt', 'grain', 'coil', 'mountain', 'tempt', 'dramatic', 'ossified', 'earthquake', 'laugh', 'spot', 'brief', 'stereotyped', 'juicy', 'meat', 'iron', 'boundary', 'move', 'wet', 'youthful', 'calendar', 'notice', 'previous', 'ball', 'disturbed', 'calculating', 'wide', 'injure', 'realise', 'silent', 'point', 'growth', 'snow', 'attack', 'sloppy', 'wine', 'fork', 'stay', 'consider', 'melodic', 'wrathful', 'elbow', 'development', 'pollution', 'coil', 'lie', 'chess', 'launch', 'purring', 'unknown', 'tip', 'kick', 'bear', 'quarter', 'unsuitable', 'route', 'fancy', 'person', 'cowardly', 'fantastic', 'pigs', 'call', 'arrogant', 'wool', 'tart', 'degree', 'knee', 'many', 'nauseating', 'baseball', 'untidy', 'slip', 'correct', 'desert', 'dirty', 'wanting', 'conscious', 'interesting', 'test', 'foolish', 'fowl', 'lovely', 'plantation', 'can', 'obsequious', 'underwear', 'troubled', 'straight', 'reminiscent', 'dream', 'pick', 'two', 'attempt', 'baby', 'warm', 'mug', 'closed', 'decision', 'range', 'effect', 'suck', 'scary', 'pencil', 'plate', 'coast', 'used', 'ritzy', 'abhorrent', 'long', 'bat', 'silent', 'grandiose', 'harmonious', 'oatmeal', 'servant', 'mate', 'better', 'humor', 'way', 'engine', 'angry', 'descriptive', 'tested', 'dock', 'shallow', 'haircut', 'force', 'fool', 'spark', 'marvelous', 'bruise', 'precious', 'upset', 'settle', 'shock', 'birthday', 'nasty', 'crow', 'spurious', 'thin', 'brainy', 'chase', 'sheet', 'skinny', 'thirsty', 'excited', 'annoyed', 'love', 'low', 'stir', 'airport', 'round', 'country', 'coal', 'grease', 'recognise', 'irate', 'fry', 'bat', 'concerned', 'gray', 'stamp', 'noise', 'bolt', 'mark', 'shade', 'chunky', 'colorful', 'intelligent', 'changeable', 'judge', 'lopsided', 'grateful', 'business', 'juggle', 'shave', 'level', 'succinct', 'lamentable', 'steam', 'unfasten', 'excellent', 'delight', 'parsimonious', 'helpful', 'resolute', 'cute', 'selection', 'welcome', 'trick', 'far', 'tiger', 'tent', 'smash', 'analyse', 'trip', 'confused', 'scold', 'unlock', 'relieved', 'solid', 'heat', 'madly', 'greasy', 'fearful', 'unable', 'shivering', 'curl', 'dapper', 'roasted', 'expect', 'squirrel', 'mother', 'busy', 'color', 'alluring', 'discover', 'dear', 'guarantee', 'left', 'shop', 'volleyball', 'lame', 'exclusive', 'drain', 'moaning', 'chance', 'songs', 'snore', 'scissors', 'volatile', 'flood', 'clip', 'time', 'creature', 'wish', 'devilish', 'acoustic', 'last', 'twist', 'activity', 'bead', 'turn', 'last', 'check',
   'pause', 'vast', 'simplistic', 'feigned', 'aware', 'duck', 'dust', 'office', 'nonstop', 'anxious', 'trains', 'bag', 'clover', 'possessive', 'gratis', 'clean', 'kiss', 'permissible', 'camp', 'irritating', 'spade', 'sore', 'teeny', 'fasten', 'woebegone', 'questionable', 'four', 'provide', 'yawn', 'ice', 'offbeat', 'birth', 'fax', 'flesh', 'roll', 'remove', 'cart', 'return', 'form', 'religion', 'rule', 'steep', 'mushy', 'crack', 'cough', 'advice', 'ruddy', 'coach', 'company', 'plants', 'educated', 'deliver', 'coordinated', 'faint', 'acidic', 'current', 'donkey', 'grandfather', 'snakes', 'possible', 'vague', 'mute', 'rhetorical', 'coach', 'pizzas', 'massive', 'protective', 'fixed', 'whine', 'hug', 'glove', 'murky', 'alarm', 'dogs', 'ludicrous', 'complete', 'thick', 'paddle', 'violet', 'rough', 'bounce', 'stem', 'note', 'shoes', 'care', 'scattered', 'craven', 'need', 'wrap', 'incredible', 'egg', 'queen', 'heap', 'complex', 'tooth', 'mice', 'wretched', 'weak', 'quickest', 'invite', 'quiet', 'hateful', 'adjoining', 'learned', 'handsomely', 'belligerent', 'tow', 'practise', 'stitch', 'existence', 'cloistered', 'floor', 'amazing', 'weary', 'school', 'pale', 'ripe', 'evanescent', 'useless', 'animated', 'request', 'deserve', 'repeat', 'smoke', 'spell', 'cheap', 'unpack', 'sail', 'bathe', 'delicious', 'sad', 'visit', 'inquisitive', 'third', 'voyage', 'allow', 'travel', 'smiling', 'wall', 'shoe', 'fear', 'reflective', 'mine', 'unaccountable', 'sniff', 'turkey', 'possess', 'tire', 'placid', 'greet', 'worried', 'coat', 'farm', 'learn', 'paper', 'burn', 'scream', 'aquatic', 'burly', 'whirl', 'describe', 'friend', 'trucks', 'mammoth', 'gather', 'trouble', 'curly', 'fire', 'slippery', 'quarrelsome', 'pathetic', 'money', 'decide', 'invent', 'appliance', 'uneven', 'spiteful', 'homeless', 'bite', 'boorish', 'cure', 'hate', 'vanish', 'amount', 'rare', 'crawl', 'uppity', 'committee', 'credit', 'dare', 'love', 'defeated', 'start', 'giraffe', 'utter', 'name', 'forgetful', 'flowers', 'communicate', 'connect', 'cultured', 'shelter', 'place', 'time', 'part', 'x - ray', 'multiply', 'lazy', 'null', 'frame', 'square', 'border', 'elite', 'daily', 'found', 'simple', 'suspect', 'thinkable', 'acid', 'joke', 'vulgar', 'challenge', 'science', 'writing', 'push', 'voice', 'pumped', 'heavy', 'arrive', 'harmony', 'prefer', 'hobbies', 'envious', 'force', 'post', 'measure', 'nerve', 'oafish', 'maid', 'screeching', 'quartz', 'mindless', 'wary', 'safe', 'vest', 'extend', 'hysterical', 'lumber', 'tremble', 'income', 'frog', 'zephyr', 'tacit', 'swim', 'silver', 'horrible', 'health', 'annoy', 'wreck', 'fang', 'locket',
-  'familiar', 'fact', 'rhyme', 'system', 'sable', 'mix', 'bleach', 'plausible', 'gainful', 'pull', 'idiotic', 'sore', 'gold', 'wholesale', 'hard - to - find', 'toes', 'blushing', 'disillusioned', 'truthful', 'opposite', 'snobbish', 'celery', 'painstaking', 'friction', 'ambitious', 'poised', 'stop', 'maddening', 'observation', 'romantic', 'place', 'berry', 'empty', 'hellish', 'channel', 'mailbox', 'even', 'nose', 'helpless', 'promise', 'stimulating', 'satisfy', 'prickly', 'oven', 'attractive', 'chickens', 'distance', 'huge', 'handle', 'immense', 'knotty', 'accurate', 'achiever', 'subsequent', 'erect', 'rat', 'damage', 'meeting', 'futuristic', 'pump', 'successful', 'spotty', 'rose', 'jealous', 'regret', 'sticky', 'young', 'jam', 'hole', 'thought', 'royal', 'tranquil', 'numerous', 'number', 'sparkle', 'trap', 'ruthless', 'foregoing', 'high - pitched', 'fire', 'full', 'boring', 'hat', 'bright', 'honorable', 'incandescent', 'lean', 'productive', 'sin', 'scribble', 'geese', 'obese', 'match', 'ghost', 'groovy', 'hypnotic', 'well - groomed', 'kind', 'hot', 'pass', 'threatening', 'plucky', 'hushed', 'step', 'scarce', 'giddy', 'fly', 'bulb', 'angle', 'eyes', 'fancy', 'stormy', 'design', 'jam', 'alert', 'luxuriant', 'crayon', 'abounding', 'curvy', 'bone', 'labored', 'inconclusive', 'pot', 'payment', 'false', 'sip', 'rod', 'stretch', 'act', 'event', 'show', 'attach', 'explain', 'porter', 'amusing', 'dark', 'grab', 'likeable', 'drink', 'holistic', 'elastic', 'spot', 'eminent', 'faded', 'malicious', 'plant', 'vengeful', 'circle', 'sister', 'sulky', 'quick', 'hot', 'own', 'terrify', 'past', 'alike', 'collar', 'slip', 'battle', 'bang', 'chew', 'plot', 'careless', 'annoying', 'smelly', 'alleged', 'replace', 'grip', 'thankful', 'oval', 'slap', 'change', 'signal', 'furtive', 'son', 'long', 'frantic', 'thundering', 'front', 'program', 'sticks', 'adjustment', 'understood', 'oceanic', 'instrument', 'report', 'excite', 'petite', 'thumb', 'unit', 'awesome', 'root', 'occur', 'veil', 'different', 'self', 'elated', 'impress', 'next', 'hill', 'lick', 'silky', 'fog', 'rich', 'deranged', 'bait', 'festive', 'tangible', 'yam', 'bit', 'sweet', 'meek', 'peck', 'cat', 'deeply', 'naughty', 'sand', 'shame', 'carriage', 'normal', 'draconian', 'spotted', 'box', 'ragged', 'unequaled', 'disapprove', 'nosy', 'lewd', 'error', 'wound', 'puny', 'striped', 'encourage', 'jellyfish', 'suffer', 'mess up', 'cobweb', 'wiry', 'three', 'kick', 'wheel', 'offer', 'hover', 'care', 'direful', 'magenta', 'empty', 'hydrant', 'ancient', 'milky', 'snail', 'memorise', 'beautiful', 'grouchy', 'watch', 'towering', 'song', 'fragile',
+  'familiar', 'fact', 'rhyme', 'system', 'sable', 'mix', 'bleach', 'plausible', 'gainful', 'pull', 'idiotic', 'sore', 'gold', 'wholesale', 'hard to find', 'toes', 'blushing', 'disillusioned', 'truthful', 'opposite', 'snobbish', 'celery', 'painstaking', 'friction', 'ambitious', 'poised', 'stop', 'maddening', 'observation', 'romantic', 'place', 'berry', 'empty', 'hellish', 'channel', 'mailbox', 'even', 'nose', 'helpless', 'promise', 'stimulating', 'satisfy', 'prickly', 'oven', 'attractive', 'chickens', 'distance', 'huge', 'handle', 'immense', 'knotty', 'accurate', 'achiever', 'subsequent', 'erect', 'rat', 'damage', 'meeting', 'futuristic', 'pump', 'successful', 'spotty', 'rose', 'jealous', 'regret', 'sticky', 'young', 'jam', 'hole', 'thought', 'royal', 'tranquil', 'numerous', 'number', 'sparkle', 'trap', 'ruthless', 'foregoing', 'high - pitched', 'fire', 'full', 'boring', 'hat', 'bright', 'honorable', 'incandescent', 'lean', 'productive', 'sin', 'scribble', 'geese', 'obese', 'match', 'ghost', 'groovy', 'hypnotic', 'well - groomed', 'kind', 'hot', 'pass', 'threatening', 'plucky', 'hushed', 'step', 'scarce', 'giddy', 'fly', 'bulb', 'angle', 'eyes', 'fancy', 'stormy', 'design', 'jam', 'alert', 'luxuriant', 'crayon', 'abounding', 'curvy', 'bone', 'labored', 'inconclusive', 'pot', 'payment', 'false', 'sip', 'rod', 'stretch', 'act', 'event', 'show', 'attach', 'explain', 'porter', 'amusing', 'dark', 'grab', 'likeable', 'drink', 'holistic', 'elastic', 'spot', 'eminent', 'faded', 'malicious', 'plant', 'vengeful', 'circle', 'sister', 'sulky', 'quick', 'hot', 'own', 'terrify', 'past', 'alike', 'collar', 'slip', 'battle', 'bang', 'chew', 'plot', 'careless', 'annoying', 'smelly', 'alleged', 'replace', 'grip', 'thankful', 'oval', 'slap', 'change', 'signal', 'furtive', 'son', 'long', 'frantic', 'thundering', 'front', 'program', 'sticks', 'adjustment', 'understood', 'oceanic', 'instrument', 'report', 'excite', 'petite', 'thumb', 'unit', 'awesome', 'root', 'occur', 'veil', 'different', 'self', 'elated', 'impress', 'next', 'hill', 'lick', 'silky', 'fog', 'rich', 'deranged', 'bait', 'festive', 'tangible', 'yam', 'bit', 'sweet', 'meek', 'peck', 'cat', 'deeply', 'naughty', 'sand', 'shame', 'carriage', 'normal', 'draconian', 'spotted', 'box', 'ragged', 'unequaled', 'disapprove', 'nosy', 'lewd', 'error', 'wound', 'puny', 'striped', 'encourage', 'jellyfish', 'suffer', 'mess up', 'cobweb', 'wiry', 'three', 'kick', 'wheel', 'offer', 'hover', 'care', 'direful', 'magenta', 'empty', 'hydrant', 'ancient', 'milky', 'snail', 'memorise', 'beautiful', 'grouchy', 'watch', 'towering', 'song', 'fragile',
   'gaze', 'loving', 'flat', 'whole', 'pies', 'coherent', 'roll', 'order', 'mere', 'squeeze', 'scent', 'nonchalant', 'bad', 'smile', 'church', 'common', 'size', 'scare', 'influence', 'hope', 'scrape', 'level', 'mouth', 'example', 'dress', 'lying', 'hanging', 'cumbersome', 'reject', 'invincible', 'afternoon', 'death', 'horn', 'jelly', 'party', 'temporary', 'label', 'efficient', 'icky', 'squealing', 'able', 'support', 'boy', 'cannon', 'button', 'nostalgic', 'treatment', 'acoustics', 'receipt', 'wilderness', 'fuel', 'shaggy', 'letters', 'muscle', 'nebulous', 'motionless', 'scintillating', 'war', 'smoggy', 'rifle', 'nutritious', 'clam', 'puzzled', 'sophisticated', 'selfish', 'apparatus', 'flash', 'teaching', 'street', 'trashy', 'gorgeous', 'popcorn', 'legs', 'cruel', 'observant', 'offer', 'zebra', 'aunt', 'plastic', 'addition', 'bite - sized', 'belong', 'aspiring', 'zoom', 'insidious', 'pet', 'courageous', 'stingy', 'base', 'wakeful', 'man', 'form', 'sleet', 'crooked', 'educate', 'bird', 'measly', 'finicky', 'barbarous', 'soap', 'loud', 'somber', 'prevent', 'obnoxious', 'plain', 'staking', 'disappear', 'kill', 'milk', 'quizzical', 'matter', 'jump', 'low', 'knowledge', 'jog', 'calm', 'reach', 'peep', 'absent', 'silly', 'zipper', 'parallel', 'obedient', 'verse', 'plastic', 'choke', 'pastoral', 'flame', 'thoughtless', 'sun', 'flippant', 'discussion', 'victorious', 'big', 'cub', 'punish', 'marble', 'precede', 'steel', 'wave', 'nation', 'tick', 'wrestle', 'perpetual', 'smooth', 'tawdry', 'cook', 'auspicious', 'peaceful', 'sparkling', 'paste', 'zoo', 'suspend', 'cheese', 'abundant', 'eatable', 'mom', 'girl', 'sneeze', 'mitten', 'itchy', 'include', 'scared', 'idea', 'puncture', 'skillful', 'walk', 'nippy', 'sweltering', 'cream', 'rampant', 'dazzling', 'blade', 'hurry', 'noisy', 'key', 'head', 'imported', 'shocking', 'insect', 'face', 'expansion', 'twig', 'quixotic', 'zinc', 'brake', 'macho', 'enchanting', 'produce', 'wooden', 'overconfident', 'behavior', 'fortunate', 'inject', 'press', 'clever', 'wren', 'head', 'discovery', 'bee', 'exercise', 'sassy', 'mysterious', 'disastrous', 'filthy', 'consist', 'obscene', 'wrench', 'jumpy', 'bedroom', 'steadfast', 'ad hoc', 'surprise', 'ugly', 'tax', 'hunt', 'punch', 'butter', 'wax', 'cow', 'stretch', 'live', 'square', 'dusty', 'needy', 'flaky', 'driving', 'chicken', 'treat', 'afterthought', 'pest', 'drain', 'truculent', 'divergent', 'bridge', 'cooperative', 'messy', 'amusement', 'small', 'copper', 'rest', 'answer', 'enthusiastic', 'purple', 'soggy', 'snotty', 'table', 'women', 'careful', 'tendency', 'determined', 'number', 'aberrant',
   'itch', 'present', 'bake', 'standing', 'lunchroom', 'giants', 'jump', 'nice', 'venomous', 'entertaining', 'rub', 'ready', 'guide', 'mist', 'hulking', 'stick', 'squash', 'squeal', 'responsible', 'irritate', 'stranger', 'boot', 'pleasant', 'depend', 'glue', 'blue - eyed', 'fetch', 'dashing', 'earsplitting', 'frame', 'red', 'zip', 'touch', 'attraction', 'note', 'ill - informed', 'sign', 'wonderful', 'adorable', 'yak', 'female', 'curtain', 'thrill', 'vagabond', 'structure', 'black - and - white', 'equable', 'fade', 'loss', 'stomach', 'available', 'cynical', 'stove', 'humdrum', 'glass', 'second', 'comparison', 'cycle', 'depressed', 'heavenly', 'yellow'];
 
@@ -37,10 +37,11 @@ const city = ['Los Angeles', 'San Francisco', 'New York', 'Chicago', 'San Jose',
 /* ends */
 
 /* Restaurant Table */
-const restaurantHeader = 'rest_id,rest_name,city_name,country_style,menu_id,budget\n';
+const restaurantHeader = 'rest_id,rest_name,city_name,country_style,budget\n';
 const menuHeader = "id,meal_time,food_name,food_preference,food_price,meal_type,photo_url,rest_id\n";
 const foodPreferenceHeader = 'id,rest_id,menu_id,rest_name,food_name\n';
-const pricingCountryStyleCityMealTimeMealTypeHeader = "id,rest_id,rest_name\n";
+const pricingHeader = 'id,rest_id,rest_name,food_name\n';
+const CountryStyleCityMealTimeMealTypeHeader = "id,rest_id,rest_name\n";
 /* ends */
 
 /* for tables: restaurant, pref, pricing, city, time, meal type */
@@ -52,7 +53,7 @@ var country_style = () => culture[randomNum(4)]
 
 /* for tables: menu, pref */
 var meal_time = () => mealTime[randomNum(3)];
-var food_name = () => words[randomNum(2643)] + words[randomNum(2643)] + words[randomNum(2643)];
+var food_name = () => words[randomNum(2643)] + ' ' + words[randomNum(2643)] + ' ' + words[randomNum(2643)];
 var food_preference = () => preference[randomNum(4)];
 var food_price_cat = () => pricing[randomNum(3)]
 let find_food_price = (priceCategory) => {
@@ -71,7 +72,7 @@ var select_rest_id = () => `${randomNum(7)}`
 
 /* help functions */
 //var cWS = (directory, entry) => fs.appendFileSync(directory, entry);
-var cWS = (directory) => fs.createWriteStream(directory);
+var cWS = (directory, options) => fs.createWriteStream(directory, options);
 var count = 1
 var counter = () => {
   if (count % 100000 === 0) {
@@ -89,63 +90,37 @@ var imageCounterReset = function() {
 };
 
 /*data to be written*/
-var restTableData = '';
-var menuTableData = '';
-var foodPrefSeafoodData = '';
-var foodPrefMeatData = '';
-var foodPrefVeganData = '';
-var foodPrefVegetarianData = '';
-var pricingCheapData = '';
-var pricingModData = '';
-var pricingExpData = '';
-var styleAsianData = '';
-var styleEuropeanData = '';
-var styleNAData = '';
-var styleSAData = '';
-var cityLAData = '';
-var citySFData = '';
-var cityNYData = '';
-var cityChiData = '';
-var citySJData = '';
-var cityHouData = '';
-var cityMiaData = '';
-var mealTimeBF = '';
-var mealTimeLunch = '';
-var mealTimeDinner = '';
-var mealTypeStarter = '';
-var mealTypeEntree = '';
-var mealTypeDessert = '';
+var restTableData = restaurantHeader
+var menuTableData = menuHeader
+var foodPrefSeafoodData = foodPreferenceHeader
+var foodPrefMeatData = foodPreferenceHeader
+var foodPrefVeganData = foodPreferenceHeader
+var foodPrefVegetarianData = foodPreferenceHeader
+var pricingCheapData = pricingHeader
+var pricingModData = pricingHeader
+var pricingExpData = pricingHeader
+var styleAsianData = CountryStyleCityMealTimeMealTypeHeader
+var styleEuropeanData = CountryStyleCityMealTimeMealTypeHeader
+var styleNAData = CountryStyleCityMealTimeMealTypeHeader
+var styleSAData = CountryStyleCityMealTimeMealTypeHeader
+var cityLAData = CountryStyleCityMealTimeMealTypeHeader
+var citySFData = CountryStyleCityMealTimeMealTypeHeader
+var cityNYData = CountryStyleCityMealTimeMealTypeHeader
+var cityChiData = CountryStyleCityMealTimeMealTypeHeader
+var citySJData = CountryStyleCityMealTimeMealTypeHeader
+var cityHouData = CountryStyleCityMealTimeMealTypeHeader
+var cityMiaData = CountryStyleCityMealTimeMealTypeHeader
+var mealTimeBF = CountryStyleCityMealTimeMealTypeHeader
+var mealTimeLunch = CountryStyleCityMealTimeMealTypeHeader
+var mealTimeDinner = CountryStyleCityMealTimeMealTypeHeader
+var mealTypeStarter = CountryStyleCityMealTimeMealTypeHeader
+var mealTypeEntree = CountryStyleCityMealTimeMealTypeHeader
+var mealTypeDessert = CountryStyleCityMealTimeMealTypeHeader
 /* ends */
 
 
 
 var restaurantTableGenerator = (dataAmt) => {
-  cWS('./PostgreSQL/restTableData.txt').write(restaurantHeader);
-  cWS('./PostgreSQL/menuTableData.txt').write(menuHeader);
-  cWS('./PostgreSQL/foodPrefSeafoodData.txt').write(foodPreferenceHeader);
-  cWS('./PostgreSQL/foodPrefMeatData.txt').write(foodPreferenceHeader);
-  cWS('./PostgreSQL/foodPrefVeganData.txt').write(foodPreferenceHeader);
-  cWS('./PostgreSQL/foodPrefVegetarianData.txt').write(foodPreferenceHeader);
-  cWS('./PostgreSQL/pricingCheapData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/pricingModData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/pricingExpData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/styleAsianData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/styleEuropeanData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/styleNAData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/styleSAData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/cityLAData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/citySFData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/cityNYData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/cityChiData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/citySJData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/cityHouData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/cityMiaData.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/mealTimeBF.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/mealTimeLunch.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/mealTimeDinner.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/mealTypeStarter.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/mealTypeEntree.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
-  cWS('./PostgreSQL/mealTypeDessert.txt').write(pricingCountryStyleCityMealTimeMealTypeHeader);
 
   var menuTableDataCount = 1
   var foodPrefSeafoodDataCount = 1
@@ -173,131 +148,154 @@ var restaurantTableGenerator = (dataAmt) => {
   var mealTypeEntreeCount = 1
   var mealTypeDessertCount = 1
 
+  var restMenuGenRecord = 1 //limits menu generation for each restaurant by 10
+  var restMenuGenTracker = (amt) => {
+    if (restMenuGenRecord <= amt) {
+      restMenuGenRecord += 1
+    } else {
+      restMenuGenRecord = 1
+    }
+  }
+
   for (let i = 0; i < dataAmt; i++) {
+
     var restaurantName = rest_name();
     var cityName = city_name();
     var countryStyle = country_style();
-    var genMealTime = meal_time();
-    var genFoodName = food_name();
-    var genFoodPref = food_preference();
-    var genFoodPriceCat = food_price_cat();
-    var genFoodPrice = find_food_price(genFoodPriceCat);
-    var genMealType = meal_type();
-    //counter();
-    restTableData = restTableData.concat(`${count},` + restaurantName + ',' + cityName + ',' + countryStyle + ',' + genFoodPriceCat + '\n');
+    var genMealTime //= meal_time();
+    var genFoodName //= food_name();
+    var genFoodPref //= food_preference();
+    var genFoodPriceCat //= food_price_cat();
+    var genFoodPrice //= find_food_price(genFoodPriceCat);
+    var genMealType //= meal_type();
+
+    
+    
     for (let i = 0; i < 10; i++) {
-      menuTableData = menuTableData.concat(`${menuTableDataCount},` + genMealTime + "," + genFoodName + "," + genFoodPref + "," + genFoodPrice + "," + genMealType + "," + photoUrl(imageCounter) + '\n');
       imageCounterReset();
-      menuTableDataCount += 1
-      if (genFoodPref === 'Seafood') { //['Meat', 'Seafood', 'Vegetarian', 'Vegan'];
-        foodPrefSeafoodData = foodPrefSeafoodData.concat(`${foodPrefSeafoodDataCount},` + `${count},` + restaurantName + ',' + genFoodName + '\n');
-        foodPrefSeafoodDataCount += 1
+      
+      /* change data */
+      genFoodName = food_name();
+      genMealTime = meal_time();
+      genFoodPref = food_preference();
+      genFoodPriceCat = food_price_cat();
+      genFoodPrice = find_food_price(genFoodPriceCat);
+      genMealType = meal_type();
+      
+      menuTableData = menuTableData.concat(`${menuTableDataCount},` + genMealTime + "," + genFoodName + "," + genFoodPref + "," + genFoodPrice + "," + genMealType + "," + photoUrl(imageCounter) + "," + restMenuGenRecord + "\n");
+     
+      if (genFoodPref === 'Seafood') { 
+        foodPrefSeafoodData = foodPrefSeafoodData.concat(`${foodPrefSeafoodDataCount},` + `${count},` + `${menuTableDataCount},` + restaurantName + ',' + genFoodName + '\n');
+        foodPrefSeafoodDataCount += 1;
       } else if (genFoodPref === 'Meat') {
-        foodPrefMeatData = foodPrefMeatData.concat(foodPrefMeatDataCount + ',' + `${count},` + restaurantName + ',' + genFoodName + '\n');
-        foodPrefMeatDataCount += 1
+        foodPrefMeatData = foodPrefMeatData.concat(foodPrefMeatDataCount + "," + `${count},` + `${menuTableDataCount},` + restaurantName + "," + genFoodName + "\n");
+        foodPrefMeatDataCount += 1;
       } else if (genFoodPref === 'Vegan') {
-        foodPrefVeganData = foodPrefVeganData.concat(foodPrefVeganDataCount + ',' + `${count},` + restaurantName + ',' + genFoodName + '\n');
-        foodPrefVeganDataCount += 1
+        foodPrefVeganData = foodPrefVeganData.concat(foodPrefVeganDataCount + "," + `${count},` + `${menuTableDataCount},` + restaurantName + "," + genFoodName + "\n");
+        foodPrefVeganDataCount += 1;
       } else if (genFoodPref === 'Vegetarian') {
-        foodPrefVegetarianData = foodPrefVegetarianData.concat(foodPrefVegetarianDataCount + ',' + `${count},` + restaurantName + ',' + genFoodName + '\n');
-        foodPrefVegetarianDataCount += 1
+        foodPrefVegetarianData = foodPrefVegetarianData.concat(foodPrefVegetarianDataCount + ',' + `${count},` + `${menuTableDataCount},` + restaurantName + ',' + genFoodName + '\n');
+        foodPrefVegetarianDataCount += 1;
       } 
       if (genFoodPriceCat === "Cheap") {
-        //['Cheap', 'Moderate', 'Expensive']
-        pricingCheapData = pricingCheapData.concat(`${pricingCheapDataCount},` + `${count},` + restaurantName + "\n");
+        pricingCheapData = pricingCheapData.concat(`${pricingCheapDataCount},` + `${count},` + `${restaurantName},` + " " + genFoodName + "\n");
         pricingCheapDataCount += 1;
       } else if (genFoodPriceCat === "Moderate") {
-        pricingModData = pricingModData.concat(`${pricingModDataCount},` + `${count},` + restaurantName + "\n");
+        pricingModData = pricingModData.concat(`${pricingModDataCount},` + `${count},` + `${restaurantName},` + " " + genFoodName + "\n");
         pricingModDataCount += 1;
       } else if (genFoodPriceCat === "Expensive") {
-        pricingExpData = pricingExpData.concat(`${pricingExpDataCount},` + `${count},` + restaurantName + "\n");
+        pricingExpData = pricingExpData.concat(`${pricingExpDataCount},` + `${count},` + `${restaurantName},` + " " + genFoodName + "\n");
         pricingExpDataCount += 1;
       }
-      if (countryStyle === 'Asian') { //['European', 'Asian', 'N American', 'S American']
+      if (countryStyle === 'Asian') {
         styleAsianData = styleAsianData.concat(styleAsianDataCount + ',' + `${count},` + restaurantName + '\n');
-        styleAsianDataCount += 1
+        styleAsianDataCount += 1;
       } else if (countryStyle === 'European') {
         styleEuropeanData = styleEuropeanData.concat(styleEuropeanDataCount + ',' + `${count},` + restaurantName + '\n');
-        styleEuropeanDataCount += 1
+        styleEuropeanDataCount += 1;
       } else if (countryStyle === 'N American') {
         styleNAData = styleNAData.concat(styleNADataCount + ',' + `${count},` + restaurantName + '\n');
-        styleNADataCount += 1
+        styleNADataCount += 1;
       } else if (countryStyle === 'S American') {
         styleSAData = styleSAData.concat(styleSADataCount + ',' + `${count},` + restaurantName + '\n');
-        styleSADataCount += 1
+        styleSADataCount += 1;
       }
-      if (cityName === 'Los Angeles') { //'Los Angeles', 'San Francisco', 'New York', 'Chicago', 'San Jose', 'Houston', 'Miami'
+      if (cityName === 'Los Angeles') { 
         cityLAData = cityLAData.concat(cityLADataCount + ',' + `${count},` + restaurantName + '\n');
-        cityLADataCount += 1
+        cityLADataCount += 1;
       } else if (cityName === 'San Francisco') {
         citySFData = citySFData.concat(citySFDataCount + ',' + `${count},` + restaurantName + '\n');
-        citySFDataCount += 1
+        citySFDataCount += 1;
       } else if (cityName === 'New York') {
         cityNYData = cityNYData.concat(cityNYDataCount + ',' + `${count},` + restaurantName + '\n');
-        cityNYDataCount += 1
+        cityNYDataCount += 1;
       } else if (cityName === 'Chicago') {
         cityChiData = cityChiData.concat(cityChiDataCount + ',' + `${count},` + restaurantName + '\n');
-        cityChiDataCount += 1
+        cityChiDataCount += 1;
       } else if (cityName === 'San Jose') {
         citySJData = citySJData.concat(citySJDataCount + ',' + `${count},` + restaurantName + '\n');
-        citySJDataCount += 1
+        citySJDataCount += 1;
       } else if (cityName === 'Houston') {
         cityHouData = cityHouData.concat(cityHouDataCount + ',' + `${count},` + restaurantName + '\n');
-        cityHouDataCount += 1
+        cityHouDataCount += 1;
       } else if (cityName === 'Miami') {
         cityMiaData = cityMiaData.concat(cityMiaDataCount + ',' + `${count},` + restaurantName + '\n');
-        cityMiaDataCount += 1
-      }
+        cityMiaDataCount += 1;
+      };
       if (genMealTime === 'Breakfast') {
         mealTimeBF = mealTimeBF.concat(mealTimeBFCount + ',' + `${count},` + restaurantName + '\n');
-        mealTimeBFCount += 1
+        mealTimeBFCount += 1;
       } else if (genMealTime === 'Lunch') {
         mealTimeLunch = mealTimeLunch.concat(mealTimeLunchCount + ',' + `${count},` + restaurantName + '\n');
-        mealTimeLunchCount += 1
+        mealTimeLunchCount += 1;
       } else if (genMealTime === 'Dinner') {
         mealTimeDinner = mealTimeDinner.concat(mealTimeDinnerCount + ',' + `${count},` + restaurantName + '\n');
-        mealTimeDinnerCount += 1
-      }
+        mealTimeDinnerCount += 1;
+      };
       if (genMealType === 'Starter') { //'Starter', 'Entree', 'Dessert'
         mealTypeStarter = mealTypeStarter.concat(mealTypeStarterCount + ',' + `${count},` + restaurantName + '\n');
-        mealTypeStarterCount += 1
+        mealTypeStarterCount += 1;
       } else if (genMealType === 'Entree') {
         mealTypeEntree = mealTypeEntree.concat(mealTypeEntreeCount + ',' + `${count},` + restaurantName + '\n');
-        mealTypeEntreeCount += 1
+        mealTypeEntreeCount += 1;
       } else if (genMealType === 'Dessert') {
         mealTypeDessert = mealTypeDessert.concat(mealTypeDessertCount + ',' + `${count},` + restaurantName + '\n');
-        mealTypeDessertCount += 1
-      }
-    }
+        mealTypeDessertCount += 1;
+      };
+      menuTableDataCount += 1;
+    };
+    restMenuGenTracker(dataAmt);
+    restTableData = restTableData.concat(`${count},` + restaurantName + "," + cityName + "," + countryStyle + "," + genFoodPriceCat + "\n");
     count += 1
-    if (count % 100 === 0){
+
+    if (count % 20000 === 0){
       console.log(count);
-      cWS('./PostgreSQL/restTableData.txt').write(restTableData);
-      cWS('./PostgreSQL/menuTableData.txt').write(menuTableData);
-      cWS('./PostgreSQL/foodPrefSeafoodData.txt').write(foodPrefSeafoodData);
-      cWS('./PostgreSQL/foodPrefMeatData.txt').write(foodPrefMeatData);
-      cWS('./PostgreSQL/foodPrefVeganData.txt').write(foodPrefVeganData);
-      cWS('./PostgreSQL/foodPrefVegetarianData.txt').write(foodPrefVegetarianData);
-      cWS('./PostgreSQL/pricingCheapData.txt').write(pricingCheapData);
-      cWS('./PostgreSQL/pricingModData.txt').write(pricingModData);
-      cWS('./PostgreSQL/pricingExpData.txt').write(pricingExpData);
-      cWS('./PostgreSQL/styleAsianData.txt').write(styleAsianData);
-      cWS('./PostgreSQL/styleEuropeanData.txt').write(styleEuropeanData);
-      cWS('./PostgreSQL/styleNAData.txt').write(styleNAData);
-      cWS('./PostgreSQL/styleSAData.txt').write(styleSAData);
-      cWS('./PostgreSQL/cityLAData.txt').write(cityLAData);
-      cWS('./PostgreSQL/citySFData.txt').write(citySFData);
-      cWS('./PostgreSQL/cityNYData.txt').write(cityNYData);
-      cWS('./PostgreSQL/cityChiData.txt').write(cityChiData);
-      cWS('./PostgreSQL/citySJData.txt').write(citySJData);
-      cWS('./PostgreSQL/cityHouData.txt').write(cityHouData);
-      cWS('./PostgreSQL/cityMiaData.txt').write(cityMiaData);
-      cWS('./PostgreSQL/mealTimeBF.txt').write(mealTimeBF);
-      cWS('./PostgreSQL/mealTimeLunch.txt').write(mealTimeLunch);
-      cWS('./PostgreSQL/mealTimeDinner.txt').write(mealTimeDinner);
-      cWS('./PostgreSQL/mealTypeStarter.txt').write(mealTypeStarter);
-      cWS('./PostgreSQL/mealTypeEntree.txt').write(mealTypeEntree);
-      cWS('./PostgreSQL/mealTypeDessert.txt').write(mealTypeDessert);
+      cWS('./PostgreSQL/restTableData.txt', {flags: 'a'}).end(restTableData);
+      cWS('./PostgreSQL/menuTableData.txt', {flags: 'a'}).end(menuTableData);
+      cWS('./PostgreSQL/foodPrefSeafoodData.txt', {flags: 'a'}).end(foodPrefSeafoodData);
+      cWS('./PostgreSQL/foodPrefMeatData.txt', {flags: 'a'}).end(foodPrefMeatData);
+      cWS('./PostgreSQL/foodPrefVeganData.txt', {flags: 'a'}).end(foodPrefVeganData);
+      cWS('./PostgreSQL/foodPrefVegetarianData.txt', {flags: 'a'}).end(foodPrefVegetarianData);
+      cWS('./PostgreSQL/pricingCheapData.txt', {flags: 'a'}).end(pricingCheapData);
+      cWS('./PostgreSQL/pricingModData.txt', {flags: 'a'}).end(pricingModData);
+      cWS('./PostgreSQL/pricingExpData.txt', {flags: 'a'}).end(pricingExpData);
+      cWS('./PostgreSQL/styleAsianData.txt', {flags: 'a'}).end(styleAsianData);
+      cWS('./PostgreSQL/styleEuropeanData.txt', {flags: 'a'}).end(styleEuropeanData);
+      cWS('./PostgreSQL/styleNAData.txt', {flags: 'a'}).end(styleNAData);
+      cWS('./PostgreSQL/styleSAData.txt', {flags: 'a'}).end(styleSAData);
+      cWS('./PostgreSQL/cityLAData.txt', {flags: 'a'}).end(cityLAData);
+      cWS('./PostgreSQL/citySFData.txt', {flags: 'a'}).end(citySFData);
+      cWS('./PostgreSQL/cityNYData.txt', {flags: 'a'}).end(cityNYData);
+      cWS('./PostgreSQL/cityChiData.txt', {flags: 'a'}).end(cityChiData);
+      cWS('./PostgreSQL/citySJData.txt', {flags: 'a'}).end(citySJData);
+      cWS('./PostgreSQL/cityHouData.txt', {flags: 'a'}).end(cityHouData);
+      cWS('./PostgreSQL/cityMiaData.txt', {flags: 'a'}).end(cityMiaData);
+      cWS('./PostgreSQL/mealTimeBF.txt', {flags: 'a'}).end(mealTimeBF);
+      cWS('./PostgreSQL/mealTimeLunch.txt', {flags: 'a'}).end(mealTimeLunch);
+      cWS('./PostgreSQL/mealTimeDinner.txt', {flags: 'a'}).end(mealTimeDinner);
+      cWS('./PostgreSQL/mealTypeStarter.txt', {flags: 'a'}).end(mealTypeStarter);
+      cWS('./PostgreSQL/mealTypeEntree.txt', {flags: 'a'}).end(mealTypeEntree);
+      cWS('./PostgreSQL/mealTypeDessert.txt', {flags: 'a'}).end(mealTypeDessert);
       restTableData = '';
       menuTableData = '';
       foodPrefSeafoodData = '';
@@ -328,4 +326,4 @@ var restaurantTableGenerator = (dataAmt) => {
   }
 }
 
-restaurantTableGenerator(10000);
+restaurantTableGenerator(10000001);

@@ -29,10 +29,10 @@ class Menu extends React.Component {
   getMenuObj() {
     axios.get(`/menus/restaurant/${this.props.match.params.restaurantId}/menu`)
       .then(response => {
-        console.log('this is the data i got from cassandra! -------->', response)
-        this.findSubMenusList(response.data[0]);
+        console.log('this is the data i got from server! -------->', response.data)
+        this.findSubMenusList(response.data);
         this.setState({
-          menu: response.data[0],
+          menu: response.data,
           selectedSubMenu: this.subMenusList[0],
         });
       })
@@ -120,6 +120,7 @@ class Menu extends React.Component {
           <div id="menuContentContainer" className={styles.hidden}>
             {this.state.selectedSubMenu.length > 0 ? 
             this.state.menu[this.state.selectedSubMenu].map((sectionObj, i) => {
+              console.log('section obj ---->', sectionObj)
               return <SubMenuSection sectionObj={sectionObj} filterObj={this.state.selectedFilters} key={i} />;
             }) : null}
           </div>

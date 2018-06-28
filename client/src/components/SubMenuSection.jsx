@@ -21,6 +21,7 @@ const SubMenuSection = (props) => {
 
   const filterEntries = (entriesArr, filterObj) => {
     let filters = Object.keys(filterObj);
+    console.log('filtered entries here -------->', entriesArr)
     let filteredEntries = entriesArr.filter(entry => {
       for (let i = 0; i < filters.length; i++) {
         if (!entry.filter_categories[filters[i]]) {

@@ -1,3 +1,4 @@
+require('newrelic')
 const express = require('express');
 const path = require('path');
 const db = require('../database/index');
@@ -21,7 +22,6 @@ app.use('/menusBundle.js', express.static(path.join(__dirname, '../public/dist/b
 //   });
 // });
 var converter = (data) => {
-
   var breakfast = [
     {
       menu_section: "Starter",
@@ -48,7 +48,7 @@ var converter = (data) => {
     {
       menu_section: "Dessert",
       entries: [],
-    }];;
+    }];
 
   var dinner = [
     {
@@ -73,7 +73,7 @@ var converter = (data) => {
           price: elem.food_price,
           photoUrl: elem.photo_url,
           filter_categories: {},
-          meal_time: elem.meal_time
+          meal_time: elem.meal_time,
         })
       } else if (elem.meal_type === 'Entree') {
         breakfast[1].entries.push({
@@ -102,7 +102,7 @@ var converter = (data) => {
           price: elem.food_price,
           photoUrl: elem.photo_url,
           filter_categories: {},
-          meal_time: elem.meal_time
+          meal_time: elem.meal_time,
         })
       } else if (elem.meal_type === 'Entree') {
         lunch[1].entries.push({
@@ -121,7 +121,7 @@ var converter = (data) => {
           price: elem.food_price,
           photoUrl: elem.photo_url,
           filter_categories: {},
-          meal_time: elem.meal_time
+          meal_time: elem.meal_time,
         });
       }
     } else if (elem.meal_time === "Dinner") {
@@ -133,7 +133,7 @@ var converter = (data) => {
           price: elem.food_price,
           photoUrl: elem.photo_url,
           filter_categories: {},
-          meal_time: elem.meal_time
+          meal_time: elem.meal_time,
         });
       } else if (elem.meal_type === 'Entree') {
         dinner[1].entries.push({
@@ -143,7 +143,7 @@ var converter = (data) => {
           price: elem.food_price,
           photoUrl: elem.photo_url,
           filter_categories: {},
-          meal_time: elem.meal_time
+          meal_time: elem.meal_time,
         });
       } else if (elem.meal_type === 'Dessert') {
         dinner[2].entries.push({
@@ -153,7 +153,7 @@ var converter = (data) => {
           price: elem.food_price,
           photoUrl: elem.photo_url,
           filter_categories: {},
-          meal_time: elem.meal_time
+          meal_time: elem.meal_time,
         });
       }
     }
@@ -164,9 +164,8 @@ var converter = (data) => {
     breakfast: breakfast,
     lunch: lunch,
     dinner: dinner,
-  }
-  console.log(convertResult)
-  return convertResult
+  };
+  return convertResult;
 }
 
 app.get('/menus/restaurant/:restaurantId/menu/', (req, res) => {
@@ -174,7 +173,6 @@ app.get('/menus/restaurant/:restaurantId/menu/', (req, res) => {
     if (err) {
       res.status(500).json(err)
     } else {
-      //console.log(result.rows)
       res.status(200).send(converter(result.rows))
     }
   })

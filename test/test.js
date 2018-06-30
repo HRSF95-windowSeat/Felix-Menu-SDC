@@ -10,7 +10,7 @@ describe('Testing GET', function() {
   describe('for item 100', function() {
     it('should return status code of 200 when the request is successful', function(done) {
       chai
-        .request("http://localhost:3005")
+        .request("http://127.0.0.1:3005")
         .get("/menus/restaurant/100/menu/")
         .end(function(err, res) {
           expect(err).to.be.null;
@@ -20,7 +20,7 @@ describe('Testing GET', function() {
     })
     it('should have rest_name upon successful get', function (done) {
       chai
-        .request("http://localhost:3005")
+        .request("http://127.0.0.1:3005")
         .get("/menus/restaurant/100/menu/")
         .end(function (err, res) {
           expect(err).to.be.null;
@@ -30,7 +30,7 @@ describe('Testing GET', function() {
     })
     it('should have rest_name upon successful get', function (done) {
       chai
-        .request("http://localhost:3005")
+        .request("http://127.0.0.1:3005")
         .get("/menus/restaurant/100/menu/")
         .end(function (err, res) {
           expect(err).to.be.null;

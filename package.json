@@ -10,7 +10,7 @@
   "scripts": {
     "start": "nodemon server/index.js",
     "build": "webpack -d --watch",
-    "test": "./node_modules/mocha/bin/mocha"
+    "test": "node_modules/mocha/bin/mocha"
   },
   "dependencies": {
     "axios": "^0.18.0",

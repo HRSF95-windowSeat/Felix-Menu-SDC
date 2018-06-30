@@ -3,9 +3,6 @@ const pg = require("pg");
 const client = new pg.Client({host: 'localhost', user: 'felixyun', database: "restaurant_menu"});
 client.connect();
 
-// const queryStmt =
-//   "SELECT * FROM menu WHERE id = 1";
-
 var instruction = (queryStmt, callback) => {
   client.query(queryStmt, (err, res) => {
     if (err) {

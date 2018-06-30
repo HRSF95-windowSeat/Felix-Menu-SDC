@@ -19,7 +19,7 @@ class Menu extends React.Component {
     this.subMenusList = [];
     this.getMenuObj();
     this.handleScroll();
-    console.log(filterTitle);
+    //console.log(filterTitle);
 
     this.handleMenuBtnClick = this.handleMenuBtnClick.bind(this);
     this.handleFilterBtnClick = this.handleFilterBtnClick.bind(this);
@@ -29,7 +29,6 @@ class Menu extends React.Component {
   getMenuObj() {
     axios.get(`/menus/restaurant/${this.props.match.params.restaurantId}/menu`)
       .then(response => {
-        console.log('this is the data i got from server! -------->', response.data)
         this.findSubMenusList(response.data);
         this.setState({
           menu: response.data,
@@ -120,7 +119,6 @@ class Menu extends React.Component {
           <div id="menuContentContainer" className={styles.hidden}>
             {this.state.selectedSubMenu.length > 0 ? 
             this.state.menu[this.state.selectedSubMenu].map((sectionObj, i) => {
-              console.log('section obj ---->', sectionObj)
               return <SubMenuSection sectionObj={sectionObj} filterObj={this.state.selectedFilters} key={i} />;
             }) : null}
           </div>

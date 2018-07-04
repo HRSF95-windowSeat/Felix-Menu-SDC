@@ -2,7 +2,7 @@ require('newrelic')
 const express = require('express');
 const path = require('path');
 const db = require('../database/index');
-const cassDB = require('../database/cassandra\ index')
+//const cassDB = require('../database/cassandra\ index')
 const router = express.Router();
 
 const app = express();
@@ -179,9 +179,7 @@ app.get('/menus/restaurant/:restaurantId/menu/', (req, res) => {
 })
 
 app.get("/restaurant/:restaurantId/restaurant/", (req, res) => {
-  db.instruction(
-    `SELECT * FROM menu where id = ${req.params.restaurantId}`,
-    (err, result) => {
+  db.instruction(`SELECT * FROM menu where id = ${req.params.restaurantId}`, (err, result) => {
       if (err) {
         res.status(500).json(err);
       } else {
@@ -192,7 +190,8 @@ app.get("/restaurant/:restaurantId/restaurant/", (req, res) => {
 });
 
 app.post('/restaurant/:restaurantId/menu/', (req, res) => {
-  db.instruction("INSERT INTO restaurant (rest_id, rest_name, city_name, country_style, budget) VALUES (10000000, 'test name', 'Los Angeles', 'S American', 'Expensive')", (err, result) => {
+  console.log('triggered post')
+  db.instruction(`INSERT INTO restaurant (rest_id, rest_name, city_name, country_style, budget) VALUES (${req.params.restaurantId}, 'test name', 'Los Angeles', 'S American', 'Expensive')`, (err, result) => {
     if (err) {
       res.status(500).json(err);
     } else {
@@ -201,7 +200,7 @@ app.post('/restaurant/:restaurantId/menu/', (req, res) => {
   });
 });
 
-router.put('/restaurant/:restaurantId/menu/', (req, res) => {
+app.put('/restaurant/:restaurantId/menu/', (req, res) => {
   db.instruction(
     "UPDATE restaurant SET rest_name = 'test name edited' WHERE rest_name = 'test name'",
     (err, result) => {
@@ -215,6 +214,7 @@ router.put('/restaurant/:restaurantId/menu/', (req, res) => {
 });
 
 app.delete("/restaurant/:restaurantId/menu/", (req, res) => {
+  //console.log('triggered delete -->', res)
   db.instruction(`DELETE FROM restaurant where rest_id = ${req.params.restaurantId}`, (err, result) => {
     if (err) {
       res.status(500).json(err);

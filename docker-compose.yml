@@ -1,0 +1,14 @@
+version: '3.6'
+
+services:
+  menu:
+    build: '.'
+    depends_on:
+      - 'database'
+    ports:
+      - '8080:3004'
+  database:
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: root
+      POSTGRES_DB:  menus

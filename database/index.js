@@ -1,16 +1,17 @@
 const pg = require("pg");
 
-const client = new pg.Client({host: 'localhost', user: 'felixyun', database: "restaurant_menu"});
+const client = new pg.Client({
+  host: "172.18.0.2/16",
+  user: process.env.POSTGRES_USER,
+  database: process.env.POSTGRES_DB
+});
 client.connect();
-
+console.log('this is host ----------->', client.host)
 var instruction = (queryStmt, callback) => {
   client.query(queryStmt, (err, res) => {
     if (err) {
-      console.log(err)
       callback(err, null)
     } else {
-      //console.log(res)
-      //res.status(200).end()
       callback(null, res)
     }
   });

@@ -224,4 +224,10 @@ app.delete("/restaurant/:restaurantId/menu/", (req, res) => {
   });
 });
 
+const port = process.env.PORT || 3005;
+
+if (!module.parent) {
+  app.listen(port, () => console.log(`Menu module listening on port ${port}`));
+}
+
 module.exports = app;

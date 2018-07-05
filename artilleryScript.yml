@@ -20,7 +20,7 @@ config:
       x-my-service-auth: '987401838271002188298567'
 scenarios:
     - flow:
-        - loop:
+        # - loop:
             - get:
                 url: "/menus/restaurant/{{$randomNumber(9000000,9900000)}}/menu/"
-          count: 100
+          # count: 100

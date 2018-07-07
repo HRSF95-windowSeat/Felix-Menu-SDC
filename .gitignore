@@ -3,3 +3,4 @@ public/dist/bundle.js
 database/data.csv
 .DS_Store
 database/PostgreSQL
+database/PostgreSQL-Local

@@ -182,8 +182,10 @@ var restaurantTableGenerator = (dataAmt) => {
       genFoodPrice = find_food_price(genFoodPriceCat);
       genMealType = meal_type();
       
-      menuTableData = menuTableData.concat(`${menuTableDataCount},` + genMealTime + "," + genFoodName + "," + genFoodPref + "," + genFoodPrice + "," + genMealType + "," + photoUrl(imageCounter) + "," + restMenuGenRecord + "\n");
-     
+      menuTableData = menuTableData.concat(`(${menuTableDataCount},` + `'${genMealTime}'` + "," + `'${genFoodName}'` + "," + `'${genFoodPref}'` + "," + `'${genFoodPrice}'` + "," + `'${genMealType}'` + "," + `'${photoUrl(imageCounter)}'` + "," + `'${restMenuGenRecord}'),` + "\n"); //for csv data gen (menu & rest)
+      //menuTableData = menuTableData.concat(`${menuTableDataCount},` + genMealTime + "," + genFoodName + "," + genFoodPref + "," + genFoodPrice + "," + genMealType + "," + photoUrl(imageCounter) + "," + restMenuGenRecord + "\n"); //for regular data gen
+
+
       if (genFoodPref === 'Seafood') { 
         foodPrefSeafoodData = foodPrefSeafoodData.concat(`${foodPrefSeafoodDataCount},` + `${count},` + `${menuTableDataCount},` + restaurantName + ',' + genFoodName + '\n');
         foodPrefSeafoodDataCount += 1;
@@ -265,10 +267,12 @@ var restaurantTableGenerator = (dataAmt) => {
       menuTableDataCount += 1;
     };
     restMenuGenTracker(dataAmt);
-    restTableData = restTableData.concat(`${count},` + restaurantName + "," + cityName + "," + countryStyle + "," + genFoodPriceCat + "\n");
+    restTableData = restTableData.concat(`(${count},` + `'${restaurantName}'` + "," + `'${cityName}'` + "," + `'${countryStyle}'` + "," + `'${genFoodPriceCat}'),` + "\n");
+    //restTableData = restTableData.concat(`${count},` + restaurantName + "," + cityName + "," + countryStyle + "," + genFoodPriceCat + "\n"); //csv gen (for rest & menu)
+
     count += 1
 
-    if (count % 20000 === 0){
+    if (count % 200 === 0){
       console.log(count);
       cWS('./PostgreSQL/restTableData.txt', {flags: 'a'}).end(restTableData);
       cWS('./PostgreSQL/menuTableData.txt', {flags: 'a'}).end(menuTableData);
@@ -326,4 +330,4 @@ var restaurantTableGenerator = (dataAmt) => {
   }
 }
 
-restaurantTableGenerator(10000001);
+restaurantTableGenerator(1000);

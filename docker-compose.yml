@@ -6,9 +6,11 @@ services:
     depends_on:
       - 'database'
     ports:
-      - '8080:3004'
+      - '8000:3005'
   database:
     image: postgres:latest
     environment:
-      POSTGRES_USER: root
-      POSTGRES_DB:  menus
+      POSTGRES_USER: postgres
+      POSTGRES_DB: restaurant_menu
+      POSTGRES_HOST: 18.206.88.98
+      POSTGRES_PORT: 5432

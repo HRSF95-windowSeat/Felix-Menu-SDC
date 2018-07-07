@@ -9,6 +9,7 @@ const app = express();
 
 app.use('/restaurant/:restaurantId', express.static(path.join(__dirname, '../public/index.html')));
 app.use('/menusBundle.js', express.static(path.join(__dirname, '../public/dist/bundle.js')));
+app.use('/loaderio-afcfc4a057e8a84e4b7bc1ac3af073be.txt', express.static(path.join(__dirname, './loaderio.txt')))
 
 // app.get('/menus/restaurant/:restaurantId/menu', (req, res) => {
 //   db.retrieve(req.params.restaurantId, (err, result) => {
